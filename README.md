@@ -1,4 +1,4 @@
-## Material de Programacion del lenguajecJava.
+## Material de Programacion del lenguaje Java.
 
 # Repo creado con la finalidad de poder armar un rejunte de toda la documentación que se encuentre  sobre aprendizaje  del  lenguaje.
 
