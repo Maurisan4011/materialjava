@@ -4,4 +4,4 @@
 
 
 
-## OJO EN CONSTRUCCION  si queres con alguna documentacion BIENVENIDO SEA!!!
+## OJO EN CONSTRUCCION  si queres, colaborar con alguna documentacion BIENVENIDO SEA!!!
