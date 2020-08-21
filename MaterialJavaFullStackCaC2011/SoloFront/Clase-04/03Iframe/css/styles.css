@@ -1,0 +1,20 @@
+CSS * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #DCE35B;
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
+    background: linear-gradient(to right, #45B649, #DCE35B);
+}
+
+form {
+    margin-top: 80px;
+}
+
+form textarea {
+    min-height: 100px;
+    max-height: 150px;
+}
