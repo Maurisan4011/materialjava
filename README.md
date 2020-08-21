@@ -6,3 +6,5 @@
 
 ## OJO EN CONSTRUCCION  si queres, colaborar con alguna documentacion BIENVENIDO SEA!!!
 #ALumnos comision 2011
+-------------------------------
+![Diapositiva1](https://user-images.githubusercontent.com/33258971/90840504-8656eb00-e330-11ea-97b3-f2f40f09784d.JPG)
