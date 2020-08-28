@@ -26,78 +26,57 @@
     <br>
     <div class="container"><br>
 
-        <!--*** botones*** -->
-        <h1>Display Radio Buttons</h1>
-        <button type="button" title="Hola Chicos" name="DAle click">Click Me!</button>
+        <div class="container"><br>
+            <h2>Formulario de registro</h2>
+            <form action="show_data.html" target="_blank">
+                <label for="firstname">Nombre: </label><input size="30" type="text" name="firstname" placeholder="Ingrese su nombre aqui..."> <br><br>
+                <label for="lastname">Apellido:</label><input size="30" type="text" name="lastname" placeholder="Ingrese su apellido aqui..."> <br><br>
+                <label for="street">Direccion:</label><input type="text" name="address" placeholder="Ingrese su dirección aqui...">
+                <br><br>
+                <label for="number">Numero:</label><input type="number" name="number" placeholder="Ingrese el numero..">
+                <br><br>
+                <label for="city">Ciudad: </label><input type="text" name="city" value="C.A.B.A."> <br><br>
+                <label for="zipcode">Código Postal:</label><input type="text" name="zipcode" placeholder="Ingrese su codigo postal aqui..."> <br> <br>
+                <label for="telefono">Telefono: </label><input type="tel" name="telefono" placeholder="ingrese su telefono aqui ...."> <br><br>
+                <label for="BirthDate">Fecha Nac.(mm/dd/yyyy): </label> <input type="date" name="birthdate"> <br><br>
+                <label for="clave">Clave: </label><input type="password" name="clave"> <br><br>
+                <label for="mail">Mail: </label><input type="email" name="mail"> <br><br>
+                <label for="url">Link del TP 3: </label><input type="url" name="url"> <br><br>
 
-        <!--*** Inputs y labels **-->
+                <p>Género (Radio)
+                    <input type="radio" name="gender" value="hombre" checked>Hombre
+                    <input type="radio" name="gender" value="Mujer">Mujer
+                    <input type="radio" name="gender" value="Otro"> Otro
+                </p>
+                <p> Conocimientos previos: (checkbox)
+                    <input type="checkbox" name="conocimientos" value="HTML"> HTML
+                    <input type="checkbox" name="conocimientos" value="CSS"> CSS
+                    <input type="checkbox" name="conocimientos" value="BOOTSTRAP"> Bootstrap
+                    <input type="checkbox" name="conocimientos" value="Javascript"> Javascript
+                    <input type="checkbox" name="conocimientos" value="Angular"> Angular
+                    <input type="checkbox" name="conocimientos" value="BaseDeDatos"> Base de Datos
+                    <input type="checkbox" name="conocimientos" value="JAVA"> JAVA
+                    <input type="checkbox" name="conocimientos" value="Maven"> Maven
+                    <input type="checkbox" name="conocimientos" value="spring"> Spring
 
-        <h1>Inputs y labels</h1>
-        <label for="fname">Nombre:</label>
-        <input type="text" id="fname" name="fname"><br><br>
+                </p>
 
-        <label for="email">email</label>
-        <input type="email" id="email" name="email"><br><br>
 
-        <label for="password">Contraseña</label>
-        <input type="password"><br><br>
+                <label for="estudios">Estudios: (Select)</label>
+                <select id="estudios" name="estudios">
+                <option value="primaria">Primaria</option>
+                <option value="secundaria">Secundaria</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+                <br>
 
-        <label for="date">Fecha</label>
-        <input type="date" id="date" name="date"><br><br>
-
-        <input type="submit" value="Submit">
-
-        <!--****Input Radio Buttons*******-->
-        <h1>Input Radio Buttons</h1>
-        <div>
-            <p>Por favor Seleccione su genero:</p>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Femenino</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Masculino</label><br>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Other</label>
-        </div>
-        <br>
-        <div>
-            <p>Por favor seleccione su edad :</p>
-            <input type="radio" id="age1" name="age" value="30">
-            <label for="age1">0 - 30</label><br>
-            <input type="radio" id="age2" name="age" value="60">
-            <label for="age2">31 - 60</label><br>
-            <input type="radio" id="age3" name="age" value="100">
-            <label for="age3">61 - 100</label><br><br>
-            <input type="submit" value="Submit">
-
-        </div>
-
-        <!--****Input checkbox*******-->
-        <div>
-            <h1>Lenguajes de Programacion que sepas </h1>
-            <input type="checkbox" name="vehicle1" value="Bike">
-            <label for="vehicle1"> Java</label><br>
-            <input type="checkbox" name="vehicle2" value="Car">
-            <label for="vehicle2"> python  </label><br>
-            <input type="checkbox" name="vehicle3" value="Boat" checked>
-            <label for="vehicle3"> php</label><br><br>
-            <input type="submit" value="Submit">
-        </div>
-
-        <!--****Form *******-->
-        <div>
-            <h1>Form</h1>
-            <form action="/action_page.php" method="POST">
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-                <input type="submit" value="Submit">
+                <label for="comentarios">Comentarios:</label> <textarea name="comentarios" rows="10" cols="30"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+                <button type="reset">Reset</button>
             </form>
         </div>
-        <span class="nav-menu-link-cp"> Capital Federal</span>
-        <div class="payment-data-title">HOla Chicques </div>
-
-    </div>
 </body>
 
 </html>
