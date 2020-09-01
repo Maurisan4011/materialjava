@@ -1,0 +1,52 @@
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     /* background: #55964c; */
+     /* background: -webkit-linear-gradient(to right, #45B649, #b2bb0d); */
+     background: linear-gradient(to right, #201de4, #c60f0f);
+ }
+ /* Aqui van estilos de h1 */
+ 
+ h1 {
+     color: rgb(81, 231, 43);
+ }
+ 
+ .containerListas {
+     color: cornflowerblue;
+     font-size: 50px;
+ }
+ 
+ #cosito {
+     color: rgb(245, 170, 252);
+     font-size: 30px;
+ }
+ 
+ h2.aprendo {
+     font-weight: bold;
+     font-size: 150px;
+ }
+ 
+ #all {
+     width: 100%;
+     float: left;
+     text-align: center;
+ }
+ 
+ iframe {
+     width: 600;
+     height: 300px;
+     margin: 0 auto;
+     background-color: rgb(180, 157, 25);
+ }
+ /* Form  */
+ 
+ form {
+     margin-top: 80px;
+ }
+ 
+ form textarea {
+     min-height: 100px;
+     max-height: 150px;
+ }

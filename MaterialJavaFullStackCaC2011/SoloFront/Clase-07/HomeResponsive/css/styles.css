@@ -1,0 +1,589 @@
+	/*Lo agrego al final*/
+	body {
+		font-family: Verdana, Tahoma, Arial;
+		/* background: -webkit-radial-gradient(top, #779BE7, #83CDFF); */
+		/*black , white*/
+		background: linear-gradient(to right, #D264B6, #83CDFF);
+
+	}
+
+	header {
+		width: 960px;
+		height: 70px;
+		/*background-color: #4a2522;Lo borro/*/
+		margin-left: auto;
+		/* para que no me quede todo de un costado
+porque mi pantalla tiene mas de 1024 */
+		margin-right: auto;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	#marca {
+		width: 220px;
+		height: 70px;
+		float: left;
+		/*  me permite usar el espacio libre a la derecha */
+	}
+
+
+	#botonera_principal {
+		width: 400px;
+		height: 40px;
+		/*lo hice mas chico*/
+		/*   background-color: #292e5c; Se lo saco*/
+		float: right;
+		/* Si no metiera esto quedaria abajo */
+		margin-top: 20px;
+		/*Lo agrego para que quede en el medio*/
+	}
+
+	/*de aca para abajo lo cambie*/
+	#botonera_principal ul {
+		/* muestro que se puede hacer asi*/
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		float: right;
+		/*agrego esto*/
+	}
+
+	#botonera_principal ul li {
+		display: inline;
+		/* Los muestro horizontal  */
+	}
+
+	#botonera_principal ul li a {
+		display: inline-block;
+		padding: 10px;
+		background-color: #FF499E;
+
+		color: whitesmoke;
+		font-weight: bold;
+		/*negrita  */
+		text-decoration: none;
+		/*sacamos el subrayado  */
+	}
+
+	nav ul li a:hover {
+		color: #000;
+		/*Cuando nos ponemos arriba pinramos de negro*/
+		background-color: red;
+		/*con esto pintaria el fondo */
+	}
+
+
+
+
+	/* o bien secion#contenido_principal */
+	#contenido_principal {
+		width: 960px;
+		height: 800px;
+		/*background-color: #3d4d39; lO borro*/
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+	}
+
+	#imagen1 {
+		width: 350px;
+		height: 300px;
+		background-color: #919463;
+		float: left;
+		margin-bottom: 10px;
+		background-image: url(../img/imagen_1.jpg);
+		background-size: cover;
+		/* esto hace que se ajuste al div  */
+	}
+
+	#presentacion {
+		width: 600px;
+		height: 300px;
+		background-color: #83CDFF;
+		float: right;
+		margin-bottom: 10px;
+		padding: 10px;
+		/*agrego padding*/
+		box-sizing: border-box;
+		/*	border:15px solid #000000;/*ejemplo para explicar las cajas y los box-sizing*/
+
+	}
+
+	#tituloarticulo {
+		font-family: Helvetica;
+		font-size: 30px;
+	}
+
+	#contenido_articulo {
+		font-family: Helvetica;
+		font-size: 20px;
+	}
+
+	#texto_contenido {
+		width: 250px;
+		height: 300px;
+		background-color: #77C8FF;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		padding: 10px;
+		/*agrego padding*/
+		box-sizing: border-box;
+	}
+
+	#contenido_segundo {
+		font-family: Helvetica;
+		font-size: 12px;
+
+	}
+
+	#imagen2 {
+		width: 440px;
+		height: 300px;
+		background-color: #b37062;
+		float: left;
+		margin-bottom: 10px;
+		background-image: url(../img/imagen_2.jpg);
+		background-size: cover;
+		/* esto hace que se ajuste al div  */
+	}
+
+
+	#destacado {
+		width: 250px;
+		height: 300px;
+		background-color: #69C3FF;
+		float: right;
+		margin-bottom: 10px;
+		padding: 10px;
+		/*agrego padding*/
+		box-sizing: border-box;
+	}
+
+	#contenido_destacado {
+		font-family: Arial;
+		font-size: 30px;
+	}
+
+	#complementario {
+		width: 960px;
+		height: 180px;
+		background-color: #e4f08b;
+		/*float: left;   /*esto es un parche que trae problemas despues    */
+		clear: both;
+		/* que mantenga la ubicacion del posicionamiento float  */
+	}
+
+	#imagen_aside {
+		height: 180px;
+		width: 960px;
+	}
+
+
+	/** Footer **/
+	footer {
+			width: 960px;
+			height: 180px;
+			background-color: #779BE7;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 10px;
+			color: #FF499E
+	}
+
+	footer h2 {
+		color: #D264B6;
+	}
+
+	footer .contenedor:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	footer div.nosotros {
+		float: left;
+		width: 30%;
+		color: #D264B6;
+	}
+
+	footer div.menu {
+		float: right;
+		width: 40%;
+		text-align: right;
+	}
+
+	footer nav {
+		width: auto;
+	}
+
+	footer nav ul li a {
+		width: auto;
+	}
+
+	p.copyright {
+		padding: 20px 0;
+		text-align: center;
+		color: #03045e;
+		font-size: larger;
+		font-weight: bold;
+
+	}
+
+	#datos {
+		width: 300px;
+		height: 180px;
+		/*background-color: #d17d77;  lO BORRO*/
+		float: left;
+		padding: 20px;
+		/*agrego padding*/
+		box-sizing: border-box;
+	}
+
+	#redes {
+		width: 350px;
+		height: 35px;
+		background-color: #5f5ea8;
+		float: right;
+	}
+
+
+	/*
+********************************************************
+*/
+
+
+
+	/* all es porque es para CUALQUIER dispositivo
+que tenga la resolucion que le digo , no discrimino
+hoy en dia la diferencia entre tablet y dispositivos no es tanta
+entonces es probable que no quede bien adaptado si uso eso
+Uso hasta 1023 , si tiene 1024 usa la de escritorio*/
+	@media all and (min-width: 600px) and (max-width: 1023px) {
+
+		/*Esta la elimino , porque quiero el mismo fondo y tipografia para todos los disp.*/
+		/*al eliminarla mantengo todo igual , no es que vuelvo a Arial*/
+		/*body{
+	font-family: Verdana, Tahoma , Arial;
+	background: -webkit-radial-gradient(top, #ccedc0 , #415939);
+}*/
+
+		header {
+			/*nuestro TAMAñO MINIMO no es mas 1024 , es 600*/
+			width: 580px;
+			/*lO CAMBIo porque el minimo es 600   */
+			height: 140px;
+			/*lo aumento para que entre todo en el header*/
+
+			/*Estos los borro porque sigo queriendo que quede en el medio   
+margin-left: auto;
+margin-right: auto;
+*/
+		}
+
+		/*Achico el parrafo.*/
+		p {
+			font-size: 12px;
+		}
+
+		#marca {
+			/*la voy a poner en el medio*/
+			/*height: 70px;      borro esto porque dejo las mismas medidas */
+			margin-left: auto;
+			margin-right: auto;
+			/* float: left; esto se lo tengo que sacar , sino lo va a poner a la izquierda*/
+			/*clear: both; esto no serviria hacer , porque no hereda de nadie.*/
+			float: none;
+			/* Hago que no utilice mas float y listo.   */
+			/*text-align: center; /*Si la marca fueran palabras,  usar esta propiedad  */
+		}
+
+
+		#botonera_principal {
+			width: 400px;
+			height: 40px;
+			float: none;
+			/* le saco el float */
+			margin-right: auto;
+			/*la pongo en el medio*/
+			margin-left: auto;
+			margin-top: 10px;
+			/*la separo de la marca*/
+		}
+
+		/* Los estilos de los botones
+los dejo todos iguales , o sea , los borro */
+
+		#contenido_principal {
+			width: 580px;
+			/*Ajutso al ancho de pantalla (se rompe todo , tranqui)*/
+			height: 800px;
+			/*por ahora lo dejo , pero seguro voy a necesitar estirarlo  */
+			/*borro lo demas*/
+		}
+
+		#imagen1 {
+			width: 200px;
+			/*la hago mas angosta  */
+			/*para refrescar conocimientos/*
+background-size: cover; /*cubre el alto , no deforma imagen*/
+			/*background-position: center;/* Esto se usa para centrar la imagen  */
+			/* borro todo lo demas */
+		}
+
+		#presentacion {
+			width: 370px;
+			/*la hago mas angosta  */
+			/* borro de aca para abajo */
+
+		}
+
+		/*Borro a :;
+#tituloarticulo 
+#contenido_articulo
+*/
+
+		#texto_contenido {
+			width: 285px;
+			/*Lo achico-/*/
+			height: 200px;
+			/*la hago mas petiza*/
+			/*borro tood lo demas*/
+		}
+
+		#imagen2 {
+			width: 285px;
+			/*la achico*/
+			height: 200px;
+			/*borro todo lo demas*/
+		}
+
+		#destacado {
+			width: 580px;
+			/*La estiro para qe ocupe toda la pantalla*/
+			height: 130px;
+			/*lo demas lo saco*/
+		}
+
+		#complementario {
+			width: 580px;
+			height: 130px;
+		}
+
+		#imagen_aside {
+			width: 580px;
+			height: 140px;
+		}
+
+		footer {
+			width: 580px;
+		}
+
+		/*borro la caja de datos  */
+
+		#redes {
+			width: 250px;
+		}
+
+
+	}
+
+	/*--------------------------------------------------
+-----Fin Media de 600 a 1023-----------------*/
+	/* quedan dos llaves juntas  */
+
+
+	/*-------------------------------------
+---------celulares--------------------
+-------------------------------------*/
+	/* *aunque no hay HOY EN DIA dispositivos de menos de 280 o 300px de ancho
+No LE Voy a poner minimo a este media*/
+	@media all and (max-width: 599px) {
+		/*copio los estilos de la vista de escritorio , no la de la anterior*/
+
+		/*borro el body , pueden sacarle el degradado si quieren*/
+
+		header {
+			/*para el ancho , como no tengo tamaño minimo , no puedo usar ningun tamaño como
+refrencia y como cada celular tiene un tamaño de pantalla diferente es muy
+dificil generar standars como hicimos antes. TRABAJAMOS CON PORCENTUALES*/
+			width: 90%;
+			/* uso 90 para que me quede un margencito a los costados */
+			height: auto;
+			/* Siempre que usamos porcentajes en el ancho hay que usar
+un alto automatico para que lo que achicamos se vaya compensando en el alto */
+		}
+
+		p {
+			font-size: 10px;
+		}
+
+		#marca {
+			/*dejo de trabajar con valores fijos*/
+			width: 100%;
+			height: auto;
+			float: none;
+			/*se lo saco para que no este al lado de la otra caja */
+			padding: 10px;
+			/* *suele usarse padding con porcentajes , pero como
+	uso border box no va a haber problema, va a quedar de 10*/
+			box-sizing: border-box;
+			/*hago que el padding se meta para adentro*/
+			text-align: center;
+		}
+
+		nav {
+			width: 100%;
+			height: auto;
+		}
+
+		#botonera_principal {
+			/* uso porcentajes  */
+			width: 100%;
+			height: auto;
+			float: none;
+			margin-top: 20px;
+		}
+
+
+		/**esto es clave , sacar el floar a la lista*/
+		#botonera_principal ul {
+			float: none;
+			/* est */
+		}
+
+		#botonera_principal ul li {
+			/*casi siempre la botonera en los celus es vertical*/
+			/*voy a hacer que los botones ocupen el 100% de la pantalla y que sean verticales*/
+			display: block;
+			/* Los muestro vertical  */
+
+		}
+
+		#botonera_principal ul li a {
+			/* como el click se hace con el dedo , los botones tienen que ser
+	mas anchos...le agrego ancho */
+			width: 100%;
+			box-sizing: border-box;
+			/*como tienen padding , agregamos esto para que el padding lo haga hacia adentro/ */
+			text-align: center;
+			/*centro el texto de los botones*/
+			margin-bottom: 5px;
+			/*para que se separen un poco los botones */
+			display: block;
+			/*el display lo pongo solo en block*/
+			/*borro toodo lo demas*/
+		}
+
+		#contenido_principal {
+			width: 90%;
+			height: auto;
+		}
+
+		#imagen1 {
+			width: 100%;
+			/*no van a entrar una al lado de la otra , entonces la pongo al 100%  */
+			height: 200px;
+			/* como es background no puedo usar auto a menos que tenga contenido dentro */
+			float: none;
+		}
+
+		#presentacion {
+			width: 100%;
+			/*como esta dentro de la caja de contenido , ocupa el 100% de la caja
+de contenido que ya ocupaba el 90%*/
+			height: auto;
+			float: none;
+			/*porque ya no queda al lado de la otra caja*/
+		}
+
+		#tituloarticulo {
+			font-family: Helvetica;
+			font-size: 30px;
+		}
+
+		#contenido_articulo {
+			font-family: Helvetica;
+			font-size: 20px;
+		}
+
+		#texto_contenido {
+			width: 100%;
+			height: auto;
+			float: none;
+			/*porque no esta al lado de ninguna. */
+			margin-right: 0px;
+			/*le saco el margen derecho*/
+		}
+
+		#contenido_segundo {
+			font-family: Helvetica;
+			font-size: 12px;
+
+		}
+
+		#imagen2 {
+			width: 100%;
+			height: 150px;
+			background-color: #b37062;
+			float: none;
+			background-position: center;
+			/*Para que quede en el centro */
+			/*Si quiero que se vea mejor hay que cambiar la imagen por otra que 
+se adapte mejor a ese tamaño de pantalla*/
+		}
+
+		#destacado {
+			width: 100%;
+			height: auto;
+			float: none;
+		}
+
+		#contenido_destacado {
+			font-family: Arial;
+			font-size: 30px;
+		}
+
+		/*El complementario esta pensado para volar en la vista de celular
+por eso , borro todo este contenido y pongo una etiqueta aside con display none*/
+		/* #complementario{  borro todo*  y tambien 
+#imagen_aside   la borro*/
+
+		#complementario {
+			display: none;
+		}
+
+		aside {
+			/*con esto indico que TOOOOODOSSS Los asides vuelen*/
+			display: none;
+			/*visibility: hidden;    si uso esto lo cargaria pero no lo mostraria , ojo con
+	esta propiedad. El display es mejor porque no lo muestra y NO LO CARGA. optimo*/
+		}
+
+		footer {
+			width: 90%;
+			height: auto;
+			float: none;
+		}
+
+		#datos {
+			width: 100%;
+			height: auto;
+			float: none;
+		}
+
+		#redes {
+			width: 100%;
+			height: 35px;
+			/*le dejo alto porque como no tiene contenido no se va a ver*/
+			background-color: #5f5ea8;
+			float: none;
+		}
+
+
+
+	}
+
+	/*fin media <599 */
