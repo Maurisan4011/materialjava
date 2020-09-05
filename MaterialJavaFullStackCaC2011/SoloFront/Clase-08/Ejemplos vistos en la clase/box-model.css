@@ -1,0 +1,15 @@
+.content-box{
+    border: 1px solid blue;
+  }
+.box{
+    width: 220px;
+    height: 200px;
+    border: 10px ridge #ffa60062;
+    padding: 20px; 
+    margin: 0.5%;
+    text-align: center;
+    box-sizing: border-box;
+    background-clip: content-box;
+    background-color: yellow;
+    display: inline-block;
+  }

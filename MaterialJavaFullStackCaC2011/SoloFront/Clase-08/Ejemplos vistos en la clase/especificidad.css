@@ -1,0 +1,18 @@
+/* Valor de 10p */
+body p.parrafo{ 
+    color: red;
+}
+
+/* Valor de 100p */
+p{  
+    color: blue;
+}
+
+/*
+
+Mas información https://blog.ida.cl/desarrollo/entendiendo-la-especificidad-css/
+
+
+https://desarrolloweb.com/articulos/declaracion-important-css.html
+
+*/

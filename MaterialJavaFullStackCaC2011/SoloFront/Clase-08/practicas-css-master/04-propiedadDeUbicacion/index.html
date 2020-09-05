@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Tutorial css Rollingcode">
+    <meta name="description" content="Aprendiendo CSS">
+    <meta name="keywords" content="tutorial, css, desarrollo web">
+
+    <title> Propiedades de ubicacion css</title>
+
+    <link rel="icon" href="img/icono.png">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        
+        header {
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 120px;
+            background: #444;
+        }
+        
+        #logo {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 200px;
+            height: 60px;
+            background: #ccc;
+        }
+        
+        .redes {
+            position: absolute;
+            width: 42px;
+            height: 42px;
+            background: #ffffff;
+            border-radius: 100%;
+        }
+        
+        #icono1 {
+            top: 42px;
+            right: 120px;
+        }
+        
+        #icono2 {
+            top: 42px;
+            right: 69px;
+        }
+        
+        #icono3 {
+            top: 42px;
+            right: 19px;
+        }
+        
+        nav {
+            position: relative;
+            margin: auto;
+            width: 1000px;
+            height: 48px;
+            background: #aaa;
+        }
+        
+        .botones {
+            float: left;
+            width: 196px;
+            height: 48px;
+            background: #333;
+            margin: 0px 2px;
+        }
+        
+        #top {
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 192px;
+            /* background: #888;*/
+        }
+        
+        #top ul {
+            width: 1010px;
+            height: 192px;
+            /*background: rgba(255, 0, 0, .5);*/
+        }
+        /*En este caso seguimos la ruta hasta la caja que queremos modificar*/
+        
+        #top ul li {
+            float: left;
+            width: 326px;
+            height: 192px;
+            background: black;
+            margin-right: 10px;
+        }
+        
+        section {
+            position: relative;
+            margin: auto;
+            width: 1000px;
+            height: 453px;
+            background: #aaa;
+        }
+        /*En este caso llamamos a la parte izquierda de la caja aside, si ponemos el nombre 
+        aside #izq estamos haciendo referencia a la ruta de otra caja
+        si usamos aside#izq nos estamos refiriendo a la misma caja*/
+        
+        aside#izq {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 200px;
+            height: 453px;
+            background: #333;
+        }
+        
+        article {
+            position: absolute;
+            left: 200px;
+            top: 0;
+            width: 600px;
+            height: 453px;
+            background: #666;
+        }
+        
+        aside#der {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 200px;
+            height: 453px;
+            background: #333;
+        }
+        
+        footer {
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 70px;
+            background: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- comienza encabezado -->
+    <header>
+        <div id="logo"></div>
+
+        <div id="icono1" class="redes"></div>
+        <div id="icono2" class="redes"></div>
+        <div id="icono3" class="redes"></div>
+    </header>
+    <!-- Fin encabezado -->
+
+    <!-- comienza barra de navegacion-->
+    <nav>
+
+        <ul>
+            <li class="botones"></li>
+            <li class="botones"></li>
+            <li class="botones"></li>
+            <li class="botones"></li>
+            <li class="botones"></li>
+        </ul>
+    </nav>
+    <!-- fin barra de navegacion-->
+
+    <!-- Comienza seccion top-->
+    <div id="top">
+
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- fin seccion top-->
+
+    <!-- Inicia seccion principal-->
+    <section>
+        <aside id="izq"></aside>
+        <article></article>
+        <aside id="der"></aside>
+    </section>
+    <!-- fin seccion principal-->
+
+    <!-- Inicia footer-->
+    <footer>
+
+    </footer>
+    <!-- finfooter-->
+</body>
+
+</html>

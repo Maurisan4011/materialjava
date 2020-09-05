@@ -1,0 +1,9 @@
+p::selection{
+    color: gray;
+    background: orange;
+}
+
+
+/* Mas informacion: 
+http://w3.unpocodetodo.info/css3/selectores-before-after.php
+ */

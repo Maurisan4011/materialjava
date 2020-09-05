@@ -1,0 +1,29 @@
+.listaDeCompras{
+    /* list-style-type: lower-roman; */
+    /* list-style-type: disc; */
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    /* list-style-type: decimal; */
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: lower-roman; */
+    /* list-style-type: upper-roman; */
+    /* list-style-type: lower-greek; */
+    /* list-style-type: lower-latin; */
+    /* list-style-type: upper-latin; */
+    /* list-style-type: armenian; */
+    /* list-style-type: georgian; */
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: none; */
+}
+
+.listaDeCompras{
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png);
+
+}
+
+
+/* Mas informacion en : 
+
+https://css-tricks.com/almanac/properties/l/list-style/ */
+

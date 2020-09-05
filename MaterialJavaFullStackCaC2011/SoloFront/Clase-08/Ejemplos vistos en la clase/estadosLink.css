@@ -1,0 +1,38 @@
+a:link{
+	padding:10px 15px;
+	border:1px solid #ff0064;
+	border-radius:5px;
+	background-color:#ff0064;
+
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+
+	box-shadow:1px 1px 1px #000;
+
+    display:inline-block;
+}
+a:active{
+	padding:10px 15px;
+	border:1px solid #ff0064;
+	border-radius:5px;
+	background-color:#ff0064;
+
+	color: blue;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+
+	box-shadow:1px 1px 1px #000;
+
+	display:inline-block;
+	font-size: 50px;
+}
+
+
+/* Mas informacion: 
+
+https://francescricart.com/estilos-css-para-enlaces-link-visited-hover-active/
+
+*/
