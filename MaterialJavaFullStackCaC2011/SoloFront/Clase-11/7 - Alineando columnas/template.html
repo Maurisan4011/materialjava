@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title> JAVA FULLSTACK CODO A CODO 4.0 Alineando columnas</title>
+  </head>
+  <body>
+    <!-- 
+      Para centrar verticalmente varios elementos al row le ponemos:
+align-items-center
+align-items-start
+align-items-end
+-->
+<style>
+  .columna{
+    background: #28afb0;
+  }
+  .row{
+    background: #19647e;
+    height: 100px;
+    margin-top:10px;
+  }
+</style>
+<div class="container">
+  <div class="row fila align-items-center">
+    <div class="col-6 columna">Columna 1</div>
+    <div class="col-6 columna">Columna 2</div>
+  </div>
+  <div class="row fila align-items-start">
+    <div class="col-6 columna">Columna 1</div>
+    <div class="col-6 columna">Columna 2</div>
+  </div>
+  <div class="row fila align-items-end">
+    <div class="col-6 columna">Columna 1</div>
+    <div class="col-6 columna">Columna 2</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6 col-sm-2 col-md-4"></div>
+    <div class="col-xs-6"></div>
+    <div class="col-sm-4"></div>
+  </div>
+</div>
+
+<!--
+ para alinear cada columna se le pone a la columna la clase de:
+
+align-self-start
+align-self-end
+align-self-center
+
+-->
+<div class="container">
+  <div class="row fila">
+    <div class="col-4 columna align-self-start">Columna 1</div>
+    <div class="col-4 columna align-self-center">Columna 2</div>
+    <div class="col-4 columna align-self-end">Columna 2</div>
+  </div>
+</div>
+<!--
+Para centrar contenido horizontalmente usamos en el row:
+Justify-content-start
+Justify-content-end
+Justify-content-center
+Justify-content-around(para que si hay espacio se use entre todos los elementos)
+Justify-content-between (para repartir el espacio entre las columnas)
+-->
+
+<div class="container">
+  <div class="row fila justify-content-between">
+    <div class="col-2 columna1 columna">Columna 1</div>
+    <div class="col-2 columna1 columna">Columna 2</div>
+    <div class="col-2 columna1 columna">Columna 2</div>
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
