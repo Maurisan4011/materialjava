@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title> JAVA FULLSTACK CODO A CODO Tooltips y PopOvers</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-6 mt-5">
+          <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Soy un tooltip">Tooltip arriba</button>
+          <button class="btn btn-primary" data-toggle="tooltip" data-placement="right" title="Soy un tooltip">Tooltip derecha</button>
+          <button class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="Soy un tooltip">Tooltip izquierda</button>
+          <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Soy un tooltip">Tooltip abajo</button>
+          <button class="btn btn-primary" data-html="true" data-toggle="tooltip" data-placement="top" title="<b>Soy un tooltip</b>">Tooltip HTML</button>
+
+          <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Tooltip deshabilitado">
+            <button class="btn btn-primary" style="pointer-events: none;" type="button" disabled>Disabled button</button>
+          </span>
+        </div>
+        <div class="col-6 mt-5">
+
+          <button type="button" class="btn btn-success" data-toggle="popover" title="PopOver" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing.">PopOver</button>
+          <button type="button" class="btn btn-success mt-5" data-container="body" data-placement="top" data-toggle="popover" title="PopOver" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing.">PopOver top</button>
+          <button type="button" class="btn btn-success mt-5" data-container="body" data-placement="right" data-toggle="popover" title="PopOver" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing.">PopOver top</button>
+
+          <button type="button" class="btn btn-success mt-5" data-container="body" data-placement="left" data-toggle="popover" title="PopOver" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing.">PopOver top</button>
+          <button type="button" class="btn btn-success mt-5" data-container="body" data-placement="bottom" data-toggle="popover" title="PopOver" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing.">PopOver top</button>
+
+          <button type="button" tabindex="0" class="btn btn-danger mt-5" data-container="body" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="PopOver" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing.">PopOver dismissible</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+  </body>
+</html>

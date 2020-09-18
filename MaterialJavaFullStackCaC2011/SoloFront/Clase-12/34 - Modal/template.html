@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title> JAVA FULLSTACK CODO A CODO Modal</title>
+  </head>
+  <body>
+      <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#modalEjemplo">Abrir modal</button>
+      <div class="modal bd-example-modal-lg fade" id="modalEjemplo" tabIndex="-1" role="dialog">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Título del modal</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span>&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ratione labore, atque praesentium consectetur aut officiis voluptas non ipsum harum dolorum sunt rerum distinctio excepturi, animi autem doloremque at recusandae!
+              <!--
+              <button type="button" class="btn btn-success mt-5" data-container="body" data-placement="left" data-toggle="popover" title="PopOver" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing.">PopOver top</button>
+              <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Soy un tooltip">Tooltip arriba</button>
+            -->
+
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-6 form-group">
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                 <div class="col-6 form-group">
+                  <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+              </div>
+            </div>
+              
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button class="btn btn-success">Guardar cambios</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+     <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title> JAVA FULLSTACK CODO A CODO Collapse</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>
+            <a href="#tarjeta" role="button" data-toggle="collapse" class="btn btn-success">Desplegar</a>
+            <button data-target="#tarjeta2" data-toggle="collapse" class="btn btn-info">Desplegar tarjeta 2</button>
+          </p>
+          <div class="collapse" id="tarjeta">
+            <div class="card card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam repellat illum, voluptates hic distinctio tenetur est iste animi quaerat numquam.
+            </div>
+          </div>
+          <div class="collapse" id="tarjeta2">
+            <div class="card card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam repellat illum, voluptates hic distinctio tenetur est iste animi quaerat numquam.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="accordion" id="miAcordeon">
+            <div class="card bg-primary text-white">
+              <div class="card-header" id="card1">
+                <button class="btn btn-light" data-toggle="collapse" data-target="#contenido1">
+                  Desplegar 1
+                </button>
+              </div>
+            </div>
+
+            <!-- Contenido 1 -->
+            <div id="contenido1" class="collapse" data-parent="#miAcordeon" aria-labelledby="card1">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ipsam!
+              </div>
+            </div>
+            <!-- Parte 2 -->
+            <div class="card bg-primary text-white">
+              <div class="card-header" id="card2">
+                <button class="btn btn-success" data-toggle="collapse" data-target="#contenido2">
+                  Desplegar 2
+                </button>
+              </div>
+            </div>
+
+            <!-- Contenido 1 -->
+            <div id="contenido2" class="collapse" data-parent="#miAcordeon">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ipsam!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

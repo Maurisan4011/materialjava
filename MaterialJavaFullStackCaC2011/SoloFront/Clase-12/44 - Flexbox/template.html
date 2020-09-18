@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title>Flexbox</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="bg-success p-2 my-2 d-flex text-white">Display .d-flex</div>
+          <div class="bg-success p-2 my-2 d-inline-flex text-white">Display .d-inline-flex</div>
+          <h1>Direction</h1>
+          <div class="d-flex bg-light flex-row border my-2">
+            <div class="p-2 bg-secondary border text-white">Item 1</div>
+            <div class="p-2 bg-secondary border text-white">Item 2</div>
+            <div class="p-2 bg-secondary border text-white">Item 3</div>
+          </div>
+          <div class="d-flex bg-light flex-row-reverse border my-2">
+            <div class="p-2 bg-secondary border text-white">Item 1</div>
+            <div class="p-2 bg-secondary border text-white">Item 2</div>
+            <div class="p-2 bg-secondary border text-white">Item 3</div>
+          </div>
+          <div class="d-flex bg-light flex-column border my-2">
+            <div class="p-2 bg-secondary border text-white">Item 1</div>
+            <div class="p-2 bg-secondary border text-white">Item 2</div>
+            <div class="p-2 bg-secondary border text-white">Item 3</div>
+          </div>
+          <div class="d-flex bg-light flex-column-reverse border my-2">
+            <div class="p-2 bg-secondary border text-white">Item 1</div>
+            <div class="p-2 bg-secondary border text-white">Item 2</div>
+            <div class="p-2 bg-secondary border text-white">Item 3</div>
+          </div>
+          <h1>Justify content</h1>
+          <div class="d-flex bg-light justify-content-start border my-2">
+            <div class="p-2 bg-secondary border text-white">Item 1</div>
+            <div class="p-2 bg-secondary border text-white">Item 2</div>
+            <div class="p-2 bg-secondary border text-white">Item 3</div>
+          </div>
+          <div class="d-flex bg-light justify-content-end border my-2">
+            <div class="p-2 bg-secondary border text-white">Item 1</div>
+            <div class="p-2 bg-secondary border text-white">Item 2</div>
+            <div class="p-2 bg-secondary border text-white">Item 3</div>
+          </div>
+          <div class="d-flex bg-light justify-content-center border my-2">
+            <div class="p-2 bg-secondary border text-white">Item 1</div>
+            <div class="p-2 bg-secondary border text-white">Item 2</div>
+            <div class="p-2 bg-secondary border text-white">Item 3</div>
+          </div>
+          <div class="d-flex bg-light justify-content-between border my-2">
+            <div class="p-2 bg-secondary border text-white">Item 1</div>
+            <div class="p-2 bg-secondary border text-white">Item 2</div>
+            <div class="p-2 bg-secondary border text-white">Item 3</div>
+          </div>
+          <div class="d-flex bg-light justify-content-around border my-2">
+            <div class="p-2 bg-secondary border text-white">Item 1</div>
+            <div class="p-2 bg-secondary border text-white">Item 2</div>
+            <div class="p-2 bg-secondary border text-white">Item 3</div>
+          </div>
+          <h1>Align Items</h1>
+          <div class="d-flex bg-dark align-items-start border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+          <div class="d-flex bg-dark align-items-end border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+          <div class="d-flex bg-dark align-items-center border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+          <div class="d-flex bg-dark align-items-start border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+          <div class="d-flex bg-dark align-items-baseline border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+          <div class="d-flex bg-dark align-items-strech border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+
+          <h1>Align-self</h1>
+          <div class="d-flex bg-dark border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark align-self-start">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+          <div class="d-flex bg-dark  border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark align-self-center">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+          <div class="d-flex bg-dark  border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark align-self-end">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+         <h1>Flex-fill</h1>
+         <div class="d-flex bg-info  border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark flex-fill">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quidem blanditiis, accusantium, distinctio quae fuga? Fuga minus, sed ipsa at assumenda nihil eum non distinctio tenetur doloribus magnam repellat adipisci!</div>
+            <div class="p-2 bg-light border text-dark flex-fill">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quidem blanditiis, accusantium, distinctio quae fuga? Fuga minus, sed ipsa at assumenda nihil eum non distinctio tenetur doloribus magnam repellat adipisci!</div>
+            <div class="p-2 bg-light border text-dark flex-fill">Item 3</div>
+          </div>
+          <h1>Flex-grow</h1>
+          <div class="d-flex bg-dark  border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark flex-grow-1">Item 1</div>
+            <div class="p-2 bg-light border text-dark flex-grow-1">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+          <h1>Flex shirink</h1>
+          <div class="d-flex bg-dark  border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark flex-shrink-1">Item 1 hola como estas</div>
+            <div class="p-2 bg-light border text-dark w-100">Item 2</div>
+            
+          </div>
+          <h1>Auto margin</h1>
+          <div class="d-flex bg-dark  border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark mr-auto">Item 1</div>
+            <div class="p-2 bg-light border text-dark">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+          <div class="d-flex bg-dark  border my-2" style="height:100px;">
+            <div class="p-2 bg-light border text-dark ml-auto">Item 1</div>
+            <div class="p-2 bg-light border text-dark ml-auto">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+
+          <div class="d-flex bg-dark align-items-start flex-column border my-2" style="height:500px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark mb-auto">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+          </div>
+         <h1>Wrap</h1>
+          <div class="d-flex bg-dark border my-2 flex-nowrap" style="height:200px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+            <div class="p-2 bg-light border text-dark">Item 4</div>
+            <div class="p-2 bg-light border text-dark">Item 5</div>
+            <div class="p-2 bg-light border text-dark">Item 6</div>
+            <div class="p-2 bg-light border text-dark">Item 7</div>
+            <div class="p-2 bg-light border text-dark">Item 8</div>
+            <div class="p-2 bg-light border text-dark">Item 9</div>
+            <div class="p-2 bg-light border text-dark">Item 10</div>
+            <div class="p-2 bg-light border text-dark">Item 11</div>
+            <div class="p-2 bg-light border text-dark">Item 12</div>
+            <div class="p-2 bg-light border text-dark">Item 13</div>
+            <div class="p-2 bg-light border text-dark">Item 14</div>
+            <div class="p-2 bg-light border text-dark">Item 15</div>
+            <div class="p-2 bg-light border text-dark">Item 16</div>
+            <div class="p-2 bg-light border text-dark">Item 17</div>
+            <div class="p-2 bg-light border text-dark">Item 18</div>
+            <div class="p-2 bg-light border text-dark">Item 19</div>
+            <div class="p-2 bg-light border text-dark">Item 20</div>
+            
+          </div>
+          <div class="d-flex bg-dark border my-2 flex-wrap" style="height:200px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+            <div class="p-2 bg-light border text-dark">Item 4</div>
+            <div class="p-2 bg-light border text-dark">Item 5</div>
+            <div class="p-2 bg-light border text-dark">Item 6</div>
+            <div class="p-2 bg-light border text-dark">Item 7</div>
+            <div class="p-2 bg-light border text-dark">Item 8</div>
+            <div class="p-2 bg-light border text-dark">Item 9</div>
+            <div class="p-2 bg-light border text-dark">Item 10</div>
+            <div class="p-2 bg-light border text-dark">Item 11</div>
+            <div class="p-2 bg-light border text-dark">Item 12</div>
+            <div class="p-2 bg-light border text-dark">Item 13</div>
+            <div class="p-2 bg-light border text-dark">Item 14</div>
+            <div class="p-2 bg-light border text-dark">Item 15</div>
+            <div class="p-2 bg-light border text-dark">Item 16</div>
+            <div class="p-2 bg-light border text-dark">Item 17</div>
+            <div class="p-2 bg-light border text-dark">Item 18</div>
+            <div class="p-2 bg-light border text-dark">Item 19</div>
+            <div class="p-2 bg-light border text-dark">Item 20</div>
+          </div>
+          <div class="d-flex bg-dark border my-2 flex-wrap-reverse" style="height:300px;">
+            <div class="p-2 bg-light border text-dark">Item 1</div>
+            <div class="p-2 bg-light border text-dark">Item 2</div>
+            <div class="p-2 bg-light border text-dark">Item 3</div>
+            <div class="p-2 bg-light border text-dark">Item 4</div>
+            <div class="p-2 bg-light border text-dark">Item 5</div>
+            <div class="p-2 bg-light border text-dark">Item 6</div>
+            <div class="p-2 bg-light border text-dark">Item 7</div>
+            <div class="p-2 bg-light border text-dark">Item 8</div>
+            <div class="p-2 bg-light border text-dark">Item 9</div>
+            <div class="p-2 bg-light border text-dark">Item 10</div>
+            <div class="p-2 bg-light border text-dark">Item 11</div>
+            <div class="p-2 bg-light border text-dark">Item 12</div>
+            <div class="p-2 bg-light border text-dark">Item 13</div>
+            <div class="p-2 bg-light border text-dark">Item 14</div>
+            <div class="p-2 bg-light border text-dark">Item 15</div>
+            <div class="p-2 bg-light border text-dark">Item 16</div>
+            <div class="p-2 bg-light border text-dark">Item 17</div>
+            <div class="p-2 bg-light border text-dark">Item 18</div>
+            <div class="p-2 bg-light border text-dark">Item 19</div>
+            <div class="p-2 bg-light border text-dark">Item 20</div>
+            
+          </div>
+          <h1>Order</h1>
+          <div class="d-flex bg-dark border my-2" style="height:200px;">
+            <div class="p-2 bg-light border text-dark order-2">Item 1</div>
+            <div class="p-2 bg-light border text-dark order-3">Item 2</div>
+            <div class="p-2 bg-light border text-dark order-1">Item 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
