@@ -1,5 +1,5 @@
-// alert('hubo un error...');
+alert('hubo un error...');
 
-// prompt('Cual es tu edad??');
+prompt('Cual es tu edad??');
 
 console.log( parseInt('20') );

@@ -4,8 +4,8 @@ const producto = {
     disponible: true
 }
 
-// const nombre = producto.nombre;
-// console.log(nombre);
+//! const nombre = producto.nombre;
+//? console.log(nombre);
 
 // Destructuring
 const { nombre, precio, disponible } = producto;

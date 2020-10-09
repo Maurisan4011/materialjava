@@ -8,7 +8,7 @@
  * TODO: let permite definir variables con un alcance a su bloque más cercano.
  */
 
-
+/* 
 function foo() {
     const b = 2;
     let a = 5    
@@ -19,7 +19,7 @@ function foo() {
 foo();
 b=9;
 console.log(b);
-
+ */
 
 // VARIABLE const NO DEBE CAMBIAR A LO LARGO DEL PROGRAMA  
 //NO podemos Reasignar el valor rompe ejemplo
@@ -33,3 +33,8 @@ function foo2() {
     console.log("primer valor de var a:" + a);
 
 }*/
+
+
+const formulario = document.getElementById('idContainer');
+console.log(formulario);
+
